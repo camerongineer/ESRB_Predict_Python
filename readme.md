@@ -6,10 +6,18 @@ ESRB Predict is a Python program that uses machine learning to predict ESRB rati
 ## Features
 
 - Predict ESRB ratings of video games based on content categories using machine learning algorithms.
+  ![Sequence 02_4](https://github.com/camerongineer/ESRB_Predict_Python/assets/93474097/230328c8-4f41-4bbd-be26-b356c7ae4598)
+
 - User-friendly graphical user interface (GUI) for easy interaction.
+  ![Sequence 02_3](https://github.com/camerongineer/ESRB_Predict_Python/assets/93474097/4c03da4b-e9c4-4ae0-aa1a-1d598fa06bfc)
+  
 - Data visualization capabilities to explore the dataset and model results.
+  ![Sequence 02_5](https://github.com/camerongineer/ESRB_Predict_Python/assets/93474097/8bc55a6e-2a4a-480e-9d8e-7a1571303069)
+  ![Sequence 02_6](https://github.com/camerongineer/ESRB_Predict_Python/assets/93474097/a4432eb9-0668-48ab-9dae-1068770b20dd)
+  
 - Ability to customize input parameters and explore different prediction scenarios.
 - Efficient data processing using the scikit-learn, pandas, matplotlib, and seaborn libraries.
+  ![Figure_1](https://github.com/camerongineer/ESRB_Predict_Python/assets/93474097/123cf1b0-9b38-415d-a076-ce7dd60142f3)
 
 
 ## Required Third-Party Libraries
