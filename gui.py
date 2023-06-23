@@ -79,10 +79,10 @@ class GUI:
     def _set_predict_page(self, page):
         predict_frame = ttk.Frame(page)
         predict_frame.pack(expand=True)
-        self.reset_button = tk.Button(predict_frame, text='Reset Selections', command=self._reset_selections)
-        self.reset_button.grid(row=0, column=0, pady=20)
         self.predict_button = tk.Button(predict_frame, text='Get Prediction', command=self._get_prediction)
-        self.predict_button.grid(row=1, column=0, pady=20)
+        self.predict_button.grid(row=0, column=0, pady=20)
+        self.reset_button = tk.Button(predict_frame, text='Reset Selections', command=self._reset_selections)
+        self.reset_button.grid(row=1, column=0, pady=20)
         self.notebook.add(page, text='Prediction')
 
     def _set_visuals_page(self, page):

@@ -71,7 +71,7 @@ class DataVisualizer:
         cmd.plot(colorbar=False, ax=ax, xticks_rotation='vertical')
         plt.title('Confusion Matrix\n', fontdict={'weight': 'bold', 'size': 22})
         plt.ylabel('\nTrue Ratings', fontdict={'weight': 'bold', 'size': 14})
-        plt.xlabel('\nPredicted Ratings', fontdict={'weight': 'bold', 'size': 14})
+        plt.xlabel(f'\nPredicted Ratings ({round(model.accuracy_score * 100)}% accurate)', fontdict={'weight': 'bold', 'size': 14})
         plt.grid(False)
         plt.show()
 
